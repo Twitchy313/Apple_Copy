@@ -1,0 +1,13 @@
+Feedback:
+1. File naming - just a small detail but I suggest always using lowercase folder names "/Images/" should be "/images/". It's kind of the standard way of doing this.
+2. Margin - So you mentioned backgrounds not getting centered in bigger screens. I saw the code and you were missing 'margin: auto;'. You had it as 'margin: 0;'. There are a variety of different ways to center something one of them includes margin auto. To make that effect work html tag like div class needs a defined width plus margin: auto; Sometimes people do this if they still want margins on top or bottom 'margin: 5px auto;'
+3. For the missing search icon. In the css you added the '/hero/' to the file path once I removed that it was fixed. I also removed the text 'search' in between a tag since u only want to show the icon.
+4. The css background for .iphone-11 and .watch weren't showing at first the url used in the css background was this: url("/Images/hero/iphone_11.jpg"). I removed the quotes and / in front of the images directory and made it look like this: url(images/hero/iphone_11.jpg)
+5. Nicely done with the mobile stuff. See if you can setup int the same menu items inside of nav-list-mobile
+6. Start adding more css to media queries play with background-size to adjust the scale of the image at certain screen sizes. Add background-color to .hero at smaller sizes when the white text disappears. You can use background-image instead of the just regular background. Its good practice to see how that works.
+7. Try adding CSS for what it would look like when a phone is turned landscape. If you have trouble finding stuff on that let me know I can help. Let me know if you have questions on how to mock this up in your browser too. Use dev tools I hope you have started using that its a developer's ultimate tool. Maybe just add a few details to show you understand that skill.
+8. Nice job with the JS toggle. I encourage practicing more of those DOM manipulations like adding classes, hiding elements, etc. It's another good skill for front end devs to have.
+9. Also good job keeping your code nice a presentable, in the field most devs stress the importance of a clean and easy to ready file.
+
+
+Overall great work sir keep it going! Look
